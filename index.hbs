@@ -1,0 +1,97 @@
+{{!< default}}
+<section class="section summary-section">
+  <h2 class="section-title"><i class="fa fa-user"></i>About Me</h2>
+  <div class="summary">
+    {{@blog.description}}
+  </div>
+</section>
+
+<section class="section experiences-section">
+  <h2 class="section-title"><i class="fa fa-briefcase"></i>Experiences</h2> 
+
+  <div class="item">
+    <div class="meta">
+      <div class="upper-row">
+        <h3 class="job-title">Software Engineer</h3>
+        <div class="time">April 2016 - July 2018</div>
+      </div>
+      <div class="company">Garanti Technology, Istanbul, TURKEY</div>
+    </div>
+    <div class="details">
+      <p>As a Software Developer, I worked at Call Center Application Development team. I was responsible for the development and maintenance of major call center projects. My main focuses were towards creating, testing, maintaining and re-factoring call flows on Interactive Voice Response (IVR) systems and developing the Call Center web application with Spring MVC. I have been writing comprehensive testing and documentation during my projects. I listed all the details below: </p>
+      <ul>
+         <li> Assisted in designing and preparation of call flows with usability services.</li>
+         <li> Conducted complete analysis of system and business requirements for all IVR applications.</li>
+         <li> Maintained comprehensive technical documentation such as programming specifications, functional 
+             and technical designs.</li>
+            <li> Coordinated with user focus groups for tuning, testing, refactoring and optimization of call flows.</li>
+            <li> Resolved technical issues by debugging and support coding and testing functions.</li>
+            <li> Responded to application issues by troubleshooting, analysis and assessment of root cause.</li>
+            <li> Suggested effective processes for improvement of operations and functionality of voice user interface 
+             applications.</li>
+            <li> Provided technical assistance for designing and maintenance of enterprise based IVR systems.</li>
+            <li> Designed and Developed the Presentation Layer using CSS, JSP, JavaScript, JQuery, Ajax, XML, HTML.</li>
+            <li> Implemented the MVC framework using Spring MVC Framework. </li>
+            <li> Developed Web-Services module for integration using SOAP, WSDL.</li>
+            <li> Code walk-through and Problem Solving.</li>
+            <li> Implemented Unit Tests using JUnit.</li>
+            <li> Used Maven for building the application.</li>
+            <li> Used Ant for building the application.</li> </p>
+      </ul>
+    </div>
+  </div>
+
+  <div class="item">
+    <div class="meta">
+      <div class="upper-row">
+        <h3 class="job-title">Bachelor Thesis - Software Developer Intern</h3>
+        <div class="time">September 2015 - January 2016</div>
+      </div>
+      <div class="company">Cybersoft/TURKEY, Istanbul</div>
+    </div>
+    <div class="details">
+      <p> I worked as an intern on a big data project during my last academic term. The project was about finding optimized solutions to data throughput on HBase. The HBase(NoSQL database) is working on a distributed Hadoop environment, so I created and maintained a distributed Hadoop system which had five nodes. The primary purpose was finding the best HBase configuration sets according to data size. I tuned up memstore, and garbage collector of Hbase then tested the various size of big data datasets.</p>
+    </div>
+  </div>
+
+  <div class="item">
+    <div class="meta">
+      <div class="upper-row">
+        <h3 class="job-title">Software Developer Intern</h3>
+        <div class="time">August 2015</div>
+      </div>
+      <div class="company">Alcatel Lucent, Istanbul/TURKEY</div>
+    </div>
+    <div class="details">
+      <p> During the internship, I worked on JDBC and Hibernate frameworks. I built a basic Android application which was fetching data from MySQL using RESTFul services. </p>
+    </div>
+  </div>
+
+  <div class="item">
+    <div class="meta">
+      <div class="upper-row">
+        <h3 class="job-title">Research Intern</h3>
+        <div class="time">July 2014 - September 2014</div>
+      </div>
+      <div class="company">University of Nevada,Reno</div>
+    </div>
+    <div class="details">
+      <p> I was involved in an ongoing project on developing a Personal Online Social Network. We designed and developed a decentralized social network on the Android platform using storage clouds with another teammate. We implemented a tester for upload/download speeds on various cloud storage services such as Dropbox, Onedrive and Drive. I was also  responsible for measuring these services at various public and private WiFi networks. </p>
+    </div>
+  </div>
+
+</section>
+
+<section class="section post-section">
+  <h2 class="section-title"><i class="fa fa-archive"></i>Projects</h2>
+  <div class="intro">
+    <p> I've highlighted some projects I've worked on. Some for class, some for clubs I was involved with at Penn, and some for myself: </p>
+  </div>
+  {{#get "posts" filter="tags:project"}}
+    {{#foreach posts}}
+      {{#if featured}}
+        {{> post-card}}
+      {{/if}}
+    {{/foreach}}
+  {{/get}}
+</section>
