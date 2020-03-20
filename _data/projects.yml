@@ -1,8 +1,8 @@
 - layout: top-middle
-  name: Super awesome project
-  link: github.com/sproogen
-  github: sproogen/resume-theme
+  name: FStream
+  link: github.com/dauut/FStream
+  github: sproogen/FStream
   quote: >
-    This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
+    Streaming Transfer Optimization for Distributed Science Workflows
   description: | # this will include new lines to allow paragraphs
-    I started this project as a way if learning <mark>React</mark> and it has since grown into a fully fledged app. I have learned many skills through this and been I'm very proud of having this in my portfolio. If you don't have a project as awesome as this I would advise you make one.
+    I developed an algorithm that offers performance guarantees to time-sensitive streaming applications by continuously monitoring transfer performance and adjusting transfer settings like concurrency, parallelism, pipelining. The new approach provides online profiling to adapt dynamic system conditions and sustain high network performance. I developed a transfer client(FStream) using Java, multithreading, GridFTP and JGlobus that can perform high-performance transfers between XSEDE supercomputers. The client has the ability to check the source path for new files and initiate/merge transfers with optimal settings. FStream also takes advantage of the long-running nature of streaming workflows and keeps track of past profiling results to greatly reduce the convergence time of future online profiling executions.  Evaluation results showed that performance of FStream by transferring several synthetic and real-world workloads using high-performance production networks and found that it offers 2x-9x performance improvement over state-of-the-art transfer applications.
