@@ -29,3 +29,29 @@
     size of large datasets.NoSQL/Hbase query throughput optimization with file size, Hbase memstore, and Garbage Collector
     type. Multi cluster Hadoop environment settings, setup, and maintain.MapReduce Application for HBase has been developed.
     Also, a web client has been developed using by Java and Javascript.
+
+
+- layout: left
+  company: Nokia
+  link: https://www.nokia.com/
+  job_title: Software Engineering Intern
+  dates: Aug 2015 - Sep 2015
+  quote: >
+   Software Engineering Intern at R&D Team.
+  description: | # this will include new lines to allow paragraphs
+    One month-long internship at Nokia(formerly Alcatel-Lucent). I worked on the basics of web applications, 
+    mobile application development, and web projects with the Hibernate framework. Also, I developed a basic 
+    android app that creates a secure connection with the MySQL database and gathers the credentials.
+
+- layout: left
+  company: UNR Networks Laboratory (NetLab)
+  link: https://www.unr.edu/cse/
+  job_title: Research Intern (Volunteer)
+  dates: July 2014 - Sep 2014
+  quote: >
+   Software Engineering Intern at R&D Team.
+  description: | # this will include new lines to allow paragraphs
+    I was involved in an ongoing research project about creating a distributed social network in 2014. 
+    The project was using personal cloud accounts like Dropbox, Google Drive, etc. for the storage. 
+    So, I developed a performance tester application that can test upload/download speeds from cloud services at 
+    different internet connection hubs. Also, I developed a social media feed simulation in 2018 for this project.

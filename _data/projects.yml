@@ -1,8 +1,35 @@
 - layout: top-middle
   name: FStream
   link: github.com/dauut/FStream
-  github: sproogen/FStream
+  github: dauut/FStream
   quote: >
-    Streaming Transfer Optimization for Distributed Science Workflows
+    Streaming Transfer Optimization for Distributed Science Workflows [A Conference Paper Submitted]
   description: | # this will include new lines to allow paragraphs
-    I developed an algorithm that offers performance guarantees to time-sensitive streaming applications by continuously monitoring transfer performance and adjusting transfer settings like concurrency, parallelism, pipelining. The new approach provides online profiling to adapt dynamic system conditions and sustain high network performance. I developed a transfer client(FStream) using Java, multithreading, GridFTP and JGlobus that can perform high-performance transfers between XSEDE supercomputers. The client has the ability to check the source path for new files and initiate/merge transfers with optimal settings. FStream also takes advantage of the long-running nature of streaming workflows and keeps track of past profiling results to greatly reduce the convergence time of future online profiling executions.  Evaluation results showed that performance of FStream by transferring several synthetic and real-world workloads using high-performance production networks and found that it offers 2x-9x performance improvement over state-of-the-art transfer applications.
+    I developed an algorithm that offers performance guarantees to time-sensitive streaming applications 
+    by continuously monitoring transfer performance and adjusting transfer settings like concurrency, parallelism, pipelining. 
+    The new approach provides online profiling to adapt dynamic system conditions and sustain high network performance. 
+    I developed a transfer client(FStream) using Java, multithreading, GridFTP and JGlobus that can perform high-performance 
+    transfers between XSEDE supercomputers. The client has the ability to check the source path for new files and initiate/merge 
+    transfers with optimal settings. FStream also takes advantage of the long-running nature of streaming workflows and keeps track 
+    of past profiling results to greatly reduce the convergence time of future online profiling executions.  Evaluation results
+     showed that performance of FStream by transferring several synthetic and real-world workloads using high-performance
+      production networks and found that it offers 2x-9x performance improvement over state-of-the-art transfer applications.
+
+- layout: top-middle
+  name: Comment Delegation Propagation Simulation on POSN
+  link: github.com/dauut/Comment-Delegation-Propagation-Simulation
+  github: dauut/Comment-Delegation-Propagation-Simulation
+  quote: >
+    Optimizing Device-to-Device User Interactions for Decentralized OSN Platforms, Comment Delegation. [A Journal Submitted]
+  description: | # this will include new lines to allow paragraphs
+    n 2018, I developed a social network simulation that simulatesusers’ 
+    online/offline status minute by minute using the data collected from volunteered Facebook users. 
+    I used thediscrete event simulation model and multithreading with Java in this project.
+     The purpose of this simulation is tofind out the best way to handle comments in a decentralized
+      social network application while a user goes offline.During this offline time, the user gives 
+      delegation to a friend for handling comments below posts, and this delegationgoes on until the 
+      user comes back or one of the previously delegated friends come back. I evaluated delegationto 
+      random, most online and most disjoint friend type and compared with the ideal case. Results 
+      showed that theaverage chain length of 1 is achieved by ideal with 61% of cases and both most 
+      online and most disjoint achieve itwith 51%. However, random delegation can achieve minimal chains with 29% and 
+      performs much worse than others.

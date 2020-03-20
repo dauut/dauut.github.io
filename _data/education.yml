@@ -6,3 +6,13 @@
     "Home Means Nevada"
   description: | # this will include new lines to allow paragraphs
     I work as a research assistant at HPCN Lab at the CSE department. My research focuses on high-performance throughput optimization between high-performance computers like supercomputers across the country. Developed a stream file transfer client using by JAVA, GridFTP and JGlobus APIs to find optimized network conditions and perform real-time tuning
+
+- layout: left
+  name: Yildiz Technical University, Istanbul/Turkey
+  dates: 2018 - 2020
+  qualification: BS Computer Science
+  quote: >
+    “The computer was born to solve problems that did not exist before.”
+    — Bill Gates
+  description: | # this will include new lines to allow paragraphs
+    Computer Engineering Department
