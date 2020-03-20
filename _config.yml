@@ -40,9 +40,9 @@ about_content: | # this will include new lines to allow paragraphs
 # More Section
 # more_title: A Little More About Me
 more_content: | # this will include new lines to allow paragraphs
-  My medium posts:
-   - [Hadoop and HBase setup on Ubuntu (Turkish)](https://medium.com/@davut/ubuntu-%C3%BCzerine-da%C4%9F%C4%B1t%C4%B1k-multi-node-hadoop-2-7-2-ve-hbase-1-2-0-kurulumu-56190d81baa5)
-   - [Big Data and Hadoop(Turkish)](https://medium.com/bili%C5%9Fim-hareketi/b%C3%BCy%C3%BCk-veri-ve-hadoop-92a19f0b7efd)
+  [Medium](https://medium.com/@davut) posts:
+   - [Hadoop and HBase setup on Ubuntu (*Turkish*)](https://medium.com/@davut/ubuntu-%C3%BCzerine-da%C4%9F%C4%B1t%C4%B1k-multi-node-hadoop-2-7-2-ve-hbase-1-2-0-kurulumu-56190d81baa5)
+   - [Big Data and Hadoop (*Turkish*)](https://medium.com/bili%C5%9Fim-hareketi/b%C3%BCy%C3%BCk-veri-ve-hadoop-92a19f0b7efd)
 
 # Footer
 footer_show_references: true
