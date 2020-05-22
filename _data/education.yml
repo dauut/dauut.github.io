@@ -5,7 +5,7 @@
   quote: >
     "Home Means Nevada"
   description: | # this will include new lines to allow paragraphs
-    I work as a research assistant at HPCN Lab at the CSE department. My research focuses on high-performance throughput optimization between high-performance computers like supercomputers across the country. Developed a stream file transfer client using by JAVA, GridFTP and JGlobus APIs to find optimized network conditions and perform real-time tuning
+    I worked as a research assistant at HPCN Lab at the CSE department. My research focus was on high-performance throughput optimization between high-performance computers of [XSEDE](https://www.xsede.org/ecosystem/resources). I developed a stream file transfer client using JAVA, [GridFTP](https://en.wikipedia.org/wiki/GridFTP), and [JGlobus API](https://github.com/jglobus/JGlobus) to find optimized network conditions and perform real-time profiling to achieve maximum possible throughput. 
 
 - layout: left
   name: Yildiz Technical University, Istanbul/Turkey
