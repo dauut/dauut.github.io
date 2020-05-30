@@ -22,7 +22,7 @@
   quote: >
     Optimizing Device-to-Device User Interactions for Decentralized OSN Platforms, Comment Delegation. [A Journal Submitted]
   description: | # this will include new lines to allow paragraphs
-    n 2018, I developed a social network simulation that simulatesusers’ 
+    In 2018, I developed a social network simulation that simulates users’
     online/offline status minute by minute using the data collected from volunteered Facebook users. 
     I used thediscrete event simulation model and multithreading with Java in this project.
      The purpose of this simulation is tofind out the best way to handle comments in a decentralized
