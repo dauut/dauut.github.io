@@ -16,9 +16,7 @@ layout: page
 - linux, bash, Git, Jenkins, CI/CD
 
 
-<h2>Projects</h2>
+*Projects*
 
-<ul>
-	<li><a href="https://github.com/dauut/FStream">FStream</a></li>
-	<li><a href="https://github.com/dauut/Comment-Delegation-Propagation-Simulation">Personal Online Social Network</a></li>
-</ul>
+- [FStream](https://github.com/dauut/FStream)
+- [Personal Online Social Network](https://github.com/dauut/Comment-Delegation-Propagation-Simulation)
