@@ -9,7 +9,7 @@ layout: page
 - am a self-motivated, result-oriented, and 2.5+ years experienced software engineer.
 - graduated from UNR with a Master’s degree in May 2020 and worked on “Stream file throughput optimization” with supercomputers. 
 
-*my skills;* 
+*Skills;* 
 
 - Java 8+, Java EE, JavaScript, Angular, Python
 - Spring MVC, Spring Boot,  RESTful API
