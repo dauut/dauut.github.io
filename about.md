@@ -19,4 +19,7 @@ layout: page
 *Projects*
 
 - [FStream](https://github.com/dauut/FStream)
+- Microservices (SpringBoot and PostgreSQL) 
+  - [Fetcher](https://github.com/dauut/EksiDebeFetcher)
+  - [REST API](https://github.com/dauut/eksidebeAPI)
 - [Personal Online Social Network](https://github.com/dauut/Comment-Delegation-Propagation-Simulation)
