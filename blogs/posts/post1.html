@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css"
+        integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+  <link rel="stylesheet" href="../../static/css/style.css">
+  <link rel="icon" type="image/x-icon" href="../../static/assets/favicon.ico">
+  <title>Blog Post Title Here</title>
+    <link href="https://cdn.jsdelivr.net/npm/prismjs@1.25.0/themes/prism.css" rel="stylesheet" />
+    <script src="https://cdn.jsdelivr.net/npm/prismjs@1.25.0/prism.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/prismjs@1.25.0/components/prism-javascript.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/prismjs@1.25.0/components/prism-css.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/prismjs@1.25.0/components/prism-markup.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/prismjs@1.25.0/components/prism-python.min.js"></script>
+</head>
+
+<body>
+<div id="themeToggle" class="theme-toggle">
+    <i class="fas fa-moon"></i>
+</div>
+<div class="blog-post">
+    <a href="../index.html" class="back-to-blog-list">Back to Blog List</a>
+    <h1>Blog Post Title Here</h1>
+  <p>Published on: <span>15th October, 2023</span></p>
+  <p>Here's an introduction to this post. This paragraph might talk about what the post covers or why the topic is important.</p>
+
+  <img src="https://www.hindustantimes.com/ht-img/img/2023/07/17/550x309/anime_collage_1686917525783_1689613937349.webp" alt="Description of Image">
+
+  <h2>Subheading 1</h2>
+  <p>Some technical details here. Explanation, explanation, and more explanation.</p>
+
+  <h2>Subheading 2</h2>
+  <p>More details. Perhaps this section discusses another aspect of the topic or presents a counterargument.</p>
+
+  <pre><code class="language-python">
+        # Python program to find the sum of natural using recursive function
+
+        def recur_sum(n):
+           if n <= 1:
+               return n
+           else:
+               return n + recur_sum(n-1)
+
+        # change this value for a different result
+        num = 16
+
+        if num < 0:
+           print("Enter a positive number")
+        else:
+           print("The sum is",recur_sum(num))
+
+    </code></pre>
+
+    <pre><code class="language-javascript">
+function helloWorld() {
+    console.log("Hello, world!");
+}
+</code></pre>
+
+
+    <h2>Conclusion</h2>
+  <p>Sum up the post and perhaps hint at the next topic you'll cover.</p>
+</div>
+
+<script src="../../static/js/theme-toggle.js"></script>
+</body>
+</html>
